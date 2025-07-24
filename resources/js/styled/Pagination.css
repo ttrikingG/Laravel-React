@@ -1,0 +1,25 @@
+.user-pagination {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.user-pagination button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.user-pagination button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.user-pagination button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
